@@ -1,0 +1,29 @@
+package Day8;
+
+public class Main {
+
+    int rollno;
+    String name;
+    static String collegename;
+
+    
+    void display(int a, String name) {
+        System.out.println(a + " " + name + " " + collegename);
+    }
+
+    public static void main(String[] args) {
+        Main obj = new Main();
+
+        
+        System.out.println(obj.rollno);       
+        System.out.println(Main.collegename); 
+
+       
+        Main.collegename = "Mount";
+
+        
+        obj.display(55, "Akash");
+        obj.display(56, "Aswin");
+        obj.display(57, "Ajay");
+    }
+}
