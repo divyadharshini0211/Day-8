@@ -1,0 +1,28 @@
+package Day8;
+
+class Grandpa {
+    void display() {
+        System.out.println("villa");
+    }
+}
+
+class Dad extends Grandpa {
+    void property() {
+        System.out.println("house, land, money");
+    }
+}
+
+class son extends Dad {
+    void show() {
+        System.out.println("bike");
+    }
+}
+
+public class Multilevelinheritance {
+    public static void main(String[] args) {
+        son obj = new son();
+        obj.display();  
+        obj.property();  
+        obj.show();      
+    }
+}
