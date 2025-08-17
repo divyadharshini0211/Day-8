@@ -1,0 +1,20 @@
+package Day8;
+
+public class over {
+
+    
+    over(int a, String str) {
+        System.out.println(a + " " + str);
+    }
+
+    
+    over(float b) {
+        System.out.println(b);
+    }
+
+    public static void main(String[] args) {
+      
+        over obj1 = new over(21, "Akash");
+        over obj2 = new over(99.5f);
+    }
+}
