@@ -1,0 +1,27 @@
+package Day8;
+
+public class Trip {
+   String place;
+   String food;
+   String stay;
+   int travelprice;
+   
+   public static void main(String[]args ) {
+	   
+	   
+	   Trip obj=new Trip();
+	   obj.place="ooty";
+	   System.out.println(obj.place);
+	   Trip obj1=new Trip();
+	   obj1.food="Dosa";
+	   System.out.println(obj1.food);
+	   Trip obj2=new Trip();
+	   obj2.stay="Flower Garden";
+	   System.out.println(obj2.stay);
+	   Trip obj3=new Trip();
+	   obj3.travelprice=6000;
+	   System.out.println(obj3.travelprice);
+	   
+   }
+		   
+}
